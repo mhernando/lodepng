@@ -39,7 +39,7 @@ Press any key to see next image, or esc to quit.
 
 #include "lodepng.h"
 
-#include <SDL/SDL.h>
+#include <miguel/sdl2/include/SDL.h>
 
 /*shows image with SDL. Returns 1 if user wants to fully quit, 0 if user wants to see next image.*/
 int show(const char* filename)

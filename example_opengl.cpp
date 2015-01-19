@@ -43,7 +43,7 @@ shows LodePNG can be used to load PNG images as textures in OpenGL.
 #include "lodepng.h"
 
 #include <iostream>
-#include <SDL/SDL.h>
+#include <miguel/sdl2/include/SDL.h>
 #include <GL/gl.h>
 
 int main(int argc, char *argv[])

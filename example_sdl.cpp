@@ -37,7 +37,7 @@ Press any key to see next image, or esc to quit.
 #include "lodepng.h"
 
 #include <iostream>
-#include <SDL/SDL.h>
+#include <miguel/sdl2/include/SDL.h>
 
 int show(const std::string& caption, const unsigned char* rgba, unsigned w, unsigned h)
 {

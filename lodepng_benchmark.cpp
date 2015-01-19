@@ -37,7 +37,7 @@ freely, subject to the following restrictions:
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <SDL/SDL.h> //SDL is used for timing.
+#include <miguel/sdl2/include/SDL.h> //SDL is used for timing.
 
 #define NUM_DECODE 5 //set to 0 for not benchmarking encoding at all, 1 for normal, higher for decoding multiple times to measure better
 
